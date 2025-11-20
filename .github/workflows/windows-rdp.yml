@@ -49,3 +49,7 @@ jobs:
             Start-Sleep -Seconds 60
             Write-Host "✓ Active - $(Get-Date -Format 'HH:mm:ss')"
           }
+- name: Reveal Tunnel URL
+  run: |
+    Write-Host "🌐 Tunnel URL:"
+    Get-Content tunnel.txt
