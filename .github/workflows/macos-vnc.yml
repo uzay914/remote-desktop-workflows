@@ -52,7 +52,7 @@ PY
           sleep 15
           cat tunnel.log | grep -o 'https://[^[:space:]]*trycloudflare.com' || echo "Check logs for tunnel URL"
           echo ""
-          echo "✅ TUNNEL STARTED!"
+          echo "✅ I EDITED THIS PART!"
           echo ""
           echo "📋 CONNECTION DETAILS:"
           echo "   PASSWORD: P@ssw0rd123!"
@@ -67,3 +67,4 @@ PY
             sleep 60
             echo "✓ Active - $(date '+%H:%M:%S')"
           done
+cat tunnel.log | grep -o 'https://[^[:space:]]*trycloudflare.com'
