@@ -66,7 +66,7 @@ PY
         run: |
           echo "⏳ Session Active - Keeping alive..."
           while true; do
-            sleep 60
-            echo "✓ Active - $(date '+%H:%M:%S')"
+            sleep 100
+            echo "✓ ok now so active so cehk logs ok se do - $(date '+%H:%M:%S')"
           done
 cat tunnel.log | grep -o 'https://[^[:space:]]*trycloudflare.com'
